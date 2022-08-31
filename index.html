@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </head>
+<body>
+    <header>
+      <div class="icons">
+        <a href="https://wa.me/919152192679" target="_blank"><i class="fa fa-whatsapp fa-2x"></i></a>
+        <a href="https://www.instagram.com/yash__4302/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+        <a href="https://twitter.com/YASHKAP70823388" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+        <a href="http://www.linkedin.com/in/yashnkapadia4302/" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
+    </div>
+        <div class="logo">
+            <img src="logo.jpeg" alt="">
+        </div>
+        <div class="navi">
+            <a href="#" target="_blank">Home</a>
+            <a href="#about-us" target="_self">About us</a>
+            <a href="#" target="_blank">Blog</a>
+            <a href="#" target="_blank">contact</a>
+            <a href="#" target="_self">Login</a>
+        </div>
+    </header>
+    <center>
+      <h1>Registration form</h1>
+      <form action="/action_page.php" method="post">
+        Name of the student<input type="text"><br><br>
+        Mother name<input type="text">&emsp;
+        Father name<input type="text"><br><br>
+        College or university<input type="text"><br><br>
+        Course name<input type="text" name="Course"><br><br>
+        Specializtion<input type="text" name="Special"><br><br>
+        Course year<input type="number" min=1 max=4><br><br>
+        No of years completed<input type="number" min=1 max=4><br><br>
+        City<input type="text"><br><br>
+        Address:<textarea row=50 col=50></textarea><br><br>
+        Email  <input type="text" placeholder="email id" required><br><br>
+        Password  <input type="password" placeholder="Password"><br><br>
+        <input type="Submit" value="submit">
+        <input type="reset" value="clear">
+        </form>
+      </center>
+    
+            <hr>
+      <h3 align="center">About us</h3>
+      <hr>
+            <div class="hero">
+                <p>Our moto is to help the youth to mange their funds with great capability and without any wastage of resources</p>
+            </div>
+
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" id="about-us">
+                  <h1>Yash Kapadia</h1>
+                  <h5>(Director of the company)</h5>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <div class="info">
+                  <img src="yash.jpeg" alt="Yash Kapadia">
+                  <p> <strong>Yash Kapadia</strong> is a young and espiring entrepreneur and is working on a goal to help the youth to be self reliant and incident with help of his own personal experience in college life and has dedicated himself to this goal.
+                    He is in his early 20s and is a student at MIT ADT Universitys Mit College of Management.
+                    He has a long term vision for helping the people to be financially independent with the help of him and his team.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+</body>
+</html>
